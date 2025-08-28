@@ -25,7 +25,7 @@
      - name: Build with Maven
        id: maven-build
        run: |
-#         echo "Starting Maven build..."
-#         mvn clean install -B -DskipTests=false
-#         echo "Build completed successfully!"
+         echo "Starting Maven build..."
+         mvn clean install -B -DskipTests=false
+         echo "Build completed successfully!"
         
